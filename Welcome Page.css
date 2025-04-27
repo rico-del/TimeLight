@@ -1,0 +1,23 @@
+@import
+url('https://fonts.googleapis.com/css?family=EB+Garamond&family=Great+Vibes&display=swap')
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0a0f2c, #020409);
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-container{
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px #00ffe0, 0 0 40px #0044ff;
+    text-align: center;
+    width: 320px;
+}
