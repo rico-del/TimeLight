@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Memory - TimeLight</title>
+  <link rel="stylesheet" href="viewmemory.css">
+</head>
+<body>
+  
+  <div class="video-background">
+    <video autoplay muted loop id="spaceVideo">
+      <source src="assets/space.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1 class="glow">Memory Lane</h1>
+    </header>
+
+    <section class="memory-card">
+      <div class="memory-content">
+        <h2 class="memory-title" id="memoryTitle"></h2>
+        <p class="memory-date" id="memoryDate"></p>
+
+        <div class="memory-media" id="memoryMedia"></div>
+
+        <p class="memory-description" id="memoryDescription"></p>
+
+        <a href="addmemory.html" class="btn">Back to Memories</a>
+      </div>
+    </section>
+  </div>
+
+  <script src="viewMemory.js" type="module"></script>
+</body>
+</html>
