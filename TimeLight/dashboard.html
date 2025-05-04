@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TimeLight - Dashboard</title>
+  <link rel="stylesheet" href="style/dashboard.css">
+  
+</head>
+<body>
+    <!-- Space Background Video -->
+    <div class="video-background">
+      <video autoplay muted loop id="spaceVideo">
+        <source src="assets/space.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="overlay"></div>
+    </div>
+  <div class="dashboard-container">
+    <div class="top-bar">
+      <button id="menuToggle" class="menu-button">&#9776;</button>
+      <h1>TimeLight</h1>
+    </div>
+
+    <div id="sidebar" class="sidebar hidden">
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="addmemory.html">Add Memory</a></li>
+        <li><a href="viewmemory.html">View Memory</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="notifications.html">Notifications</a></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><a href="welcome.html">Log Out</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2>Welcome to TimeLight!</h2>
+                  <p class="intro-text">A web based (soon available on mobile) app Inspired by the complexity and mystery of our minds. In all their cosmic <br>
+                            complexity, our minds often tuck away memories too heavy to hold. Maybe a traumatic event you'd like to finally just to be <br>
+                            proud of your healing, or a happy moment you'd not want to lose. TimeLight promises to keep those precious momentbr <br>
+                            of life you hold dear, the memories you'd love to fly back to in time and revisit. This app is a safe constellation <br>
+                            for what might've been lost in the shadows. A tribute to healing, remembering, and honoring every phase of our <br>
+                            emotional universe. </p>
+    </div>
+  </div>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

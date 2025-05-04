@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TimeLight-Settings</title>
+  <link rel="stylesheet" href="style/settings.css">
+  <script src="./app.js"></script>
+</head>
+<body>
+      
+  <div class="video-background">
+    <video autoplay muted loop id="spaceVideo">
+      <source src="assets/space.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="overlay"></div>
+  </div>
+  <div class="dashboard-container">
+    <div class="top-bar">
+      <button id="menuToggle" class="menu-button">&#9776;</button>
+        </div>
+        </div>
+
+    <div id="sidebar" class="sidebar hidden">
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="addmemory.html">Add Memory</a></li>
+        <li><a href="viewmemory.html">View Memory</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="notifications.html">Notifications</a></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><a href="welcome.html">Log Out</a></li>
+      </ul>
+    </div>
+    </div>
+  <div class="settings-container">
+    <h1>Settings</h1>
+    <form>
+      <label>Change Email</label>
+      <input type="email" placeholder="Enter new email">
+      
+      <label>Change Password</label>
+      <input type="password" placeholder="Enter new password">
+      <input type="password" id="password" placeholder="Confirm Password" required>
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+  <script src="js/settings.js"></script>
+  
+</body>
+</html>
